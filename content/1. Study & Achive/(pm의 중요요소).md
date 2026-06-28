@@ -1,5 +1,5 @@
 ---
-TITLE: "PM 의 중요 요소 publish: true"
+title: "PM 의 중요 요소 publish: true"
 tag:
   - pm
 ---
