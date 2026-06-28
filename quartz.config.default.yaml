@@ -1,4 +1,3 @@
-# quartz.config.default.yaml
 configuration:
   pageTitle: Quartz 5
   pageTitleSuffix: ""
