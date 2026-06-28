@@ -7,7 +7,11 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
+<<<<<<< HEAD
   baseUrl: quartz.jzhao.xyz
+=======
+  baseUrl: kairos-pm-cx.dev
+>>>>>>> 7eef557236b7a0f56392d24be8ce8f1e375c86bc
   ignorePatterns:
     - private
     - templates

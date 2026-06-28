@@ -2,7 +2,11 @@
 title: Getting Started
 ---
 
+<<<<<<< HEAD
 This guide walks you through setting up Quartz from scratch. If you already ran the [[index 1#🪴 Get Started|quickstart]] on the home page, you can skip ahead to whichever step you're on.
+=======
+This guide walks you through setting up Quartz from scratch. If you already ran the [[index#🪴 Get Started|quickstart]] on the home page, you can skip ahead to whichever step you're on.
+>>>>>>> 7eef557236b7a0f56392d24be8ce8f1e375c86bc
 
 ## Prerequisites
 
