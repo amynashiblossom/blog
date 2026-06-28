@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
+# quartz.config.default.yaml
 configuration:
   pageTitle: Quartz 5
   pageTitleSuffix: ""
@@ -7,11 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-
-  
-
   baseUrl: kairos-pm-cx.dev
-
   ignorePatterns:
     - private
     - templates
@@ -90,24 +86,10 @@ plugins:
     options:
       renderEngine: katex
     order: 80
-  - source: github:quartz-community/citations
-    enabled: false
-    order: 85
-  - source: github:quartz-community/hard-line-breaks
-    enabled: false
-    order: 90
-  - source: github:quartz-community/ox-hugo
-    enabled: false
-    order: 91
-  - source: github:quartz-community/roam
-    enabled: false
-    order: 92
   - source: github:quartz-community/fonts
     enabled: true
   - source: github:quartz-community/remove-draft
     enabled: true
-  - source: github:quartz-community/explicit-publish
-    enabled: false
   - source: github:quartz-community/alias-redirects
     enabled: true
   - source: github:quartz-community/content-index
@@ -162,11 +144,6 @@ plugins:
     layout:
       position: beforeBody
       priority: 20
-  - source: github:quartz-community/tag-list
-    enabled: false
-    layout:
-      position: beforeBody
-      priority: 30
   - source: github:quartz-community/page-title
     enabled: true
     layout:
@@ -190,22 +167,12 @@ plugins:
       position: beforeBody
       priority: 5
       condition: not-index
-  - source: github:quartz-community/comments
-    enabled: false
-    options:
-      provider: giscus
-      options: {}
-    layout:
-      position: afterBody
-      priority: 10
   - source: github:quartz-community/footer
     enabled: true
     options:
       links:
         GitHub: https://github.com/jackyzha0/quartz
         Discord Community: https://discord.gg/cRFFHYye7t
-  - source: github:quartz-community/recent-notes
-    enabled: false
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -250,12 +217,6 @@ plugins:
     layout:
       position: body
       priority: 100
-      display: all
-  - source: github:quartz-community/stacked-pages
-    enabled: false
-    layout:
-      position: afterBody
-      priority: 50
       display: all
 layout:
   groups:
