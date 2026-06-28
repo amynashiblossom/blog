@@ -4,5 +4,15 @@ publish: true
 tag:
   - pm
 ---
+---
+title: PM의 중요 요소
+publish: true
+tag:
+ - pm
+ -
+
+---
+
+
 [[PM]] 으로서 직관적으로 정리된 플로우를 기반으로 소통하기
 시각적으로 직관적으로 와 닿아야
