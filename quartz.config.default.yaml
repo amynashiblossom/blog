@@ -221,7 +221,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: kairos-pm-cx.dev
+
   ignorePatterns:
     - private
     - templates
