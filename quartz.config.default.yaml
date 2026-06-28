@@ -8,7 +8,7 @@ configuration:
     provider: plausible
   locale: en-US
 
-  baseUrl: quartz.jzhao.xyz
+  
 
   baseUrl: kairos-pm-cx.dev
 
