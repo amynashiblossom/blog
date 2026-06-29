@@ -3,5 +3,6 @@ title: pm으로서 중요 요소
 tags:
   - 직관성
   - 직관적구성
+publish: true
 ---
 직관적으로 와 닿아야 함
